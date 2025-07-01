@@ -22,7 +22,7 @@ def save_versioned_file(file_path):
         shutil.move(file_path, versioned_path)
 
 # Upload de arquivos
-st.title("Gerenciador de Documentos - Streamlit")
+st.title("Gerenciador de Documentos Inteligente")
 st.markdown("### Upload de Arquivos")
 
 with st.form("upload_form"):
